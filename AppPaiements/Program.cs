@@ -11,5 +11,16 @@ internal class Program
         achat1.AfficherDetails();
         achat2.AfficherDetails();
         achat3.AfficherDetails();
+
+
+
+
+
+        Paypal paiement1 = new Paypal(35.7, "Achat en ligne", "example1@email.com");
+        Paypal paiement2 = new Paypal(91.3, "Service de streaming", "example2@email.com");
+
+        
+        paiement1.AfficherDetails();
+        paiement2.AfficherDetails();
     }
 }
